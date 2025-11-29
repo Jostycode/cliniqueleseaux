@@ -50,7 +50,7 @@ function Page3() {
     }, []);
     return (
         <>
-            <div className="service pb-5">
+            <div className="service">
                 <div className='div1'>
                     <h2 className="service-title1">nos services</h2>
                     <p>
