@@ -2,7 +2,8 @@ import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import Service1 from './composants/services/service1.jsx'
+import Service from './composants/services/service.jsx'
+import Urgence from './composants/accueil/urgence.jsx'
 import Apropos from './composants/apropos/apropos.jsx'
 import Contact from './composants/contact/contact.jsx'
 import {
@@ -17,8 +18,12 @@ let router = createBrowserRouter([
     // loader: loadRootData,
   },
   {
+    path: "/urgence",
+    element: <Urgence />,
+  },
+  {
     path: "/service",
-    element: <Service1 />,
+    element: <Service />,
   },
   {
     path: "/apropos",

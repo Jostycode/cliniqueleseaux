@@ -50,10 +50,11 @@ function App() {
       <Page1 >101 Avenue Katt Matou centre ville pointe noire republique du congo, Contact: 06 635 22 06, cliniqueleseaux@gmail.com</Page1 >
       <Navbarclinique />
       <Page2 />
+      <Page6 lien="/urgence">service d'urgence</Page6 >
       <Page3 />
       <Page4 >Clinique Médicale les "LES EAUX"</Page4 >
       <Page5 />
-      <Page6 >reserver un rendez-vous</Page6 >
+      <Page6 lien2="">reserver un rendez-vous</Page6 >
       <MiniExamen />
     </div>
   );

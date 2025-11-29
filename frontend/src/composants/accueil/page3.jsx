@@ -57,7 +57,7 @@ function Page3() {
                         Découvrez ci-dessous les différents services proposés par notre clinique. Chacun d’eux a été conçu pour répondre à vos besoins avec professionnalisme, écoute et attention. Notre équipe met tout en œuvre pour vous offrir des soins de qualité dans un cadre moderne et accueillant.
                     </p>
                 </div>
-                <div className="container">
+                <div className="container pt-5">
                     <div className="item1">
                         <h5>radiologie</h5>
                     </div>
