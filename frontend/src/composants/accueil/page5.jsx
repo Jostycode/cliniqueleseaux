@@ -18,16 +18,18 @@ function Page5() {
                         </div>
                         <div className="col-md-6">
                             <div className="side-bb py-5 px-3">
-                                <h3>Presentation de la clinique</h3>
+                                {/* <h3>Presentation de la clinique</h3> */}
                                 <p className="card-text text1">
-                                    La clinique les eaux est un établissement de soins privés, de droit congolais, créé en 1996 dont la vocation est de fournir des soins de qualité et des services répondant aux besoins des patients. <br /><br />
-                                    En quelques mots, la clinique les eaux c’est :
-                                    Une capacité d’accueil en hospitalisation à temps complets de 34 lits nous somme conscient de l’unicité de chaque patient.
+                                    La clinique médicale "LES EAUX" est un établissement de soins privés, elle est tournée vers l'avenir, en investissant continuellement dans les technologies médicales les plus innovantes pour améliorer la qualité de nos diagnostics et de nos traitements. Nous encourageons une culture d'amélioration continue, où chaque retour d'expérience nous aide à perfectionner nos services.<br /><br />
+
+                                    Notre engagement envers l'innovation nous permet de rester à la pointe des avancées médicales.
+
+                                    la clinique est guidée par des valeurs fortes d'excellence des soins et de bien-être des patients, c'est pourquoi nous tenons à vous proposer des tarifs abordables pour nos visites médicales.
                                     <br /><br />
                                     Parce que votre santé est notre priorité.
-                                    Découvrez notre clinique les eaux idéalement situé en pleins centre-ville en diagonale de la banque de sang (CTA). <br /><br />
-                                    Notre établissement de santé multidisciplinaire ce déploie sur trois étages, cette infrastructure remarquable n’est que le commencement de notre engagement pour votre bien être.
-                                    Notre équipe médicale hautement qualifié disponible 24h/24 ; 7/7 prête à répondre à vos besoins de santé les plus urgents.
+                                    Découvrez la clinique "LES EAUX" idéalement situé en pleins centre-ville en diagonale de la banque de sang (CTA). <br /><br />
+                                    Notre établissement de santé multidisciplinaire ce déploie sur deux étages, cette infrastructure remarquable n’est que le commencement de notre engagement pour votre bien être.
+                                    l'équipe médicale hautement qualifié disponible 24h/24 ; 7/7 prête à répondre à vos besoins de santé les plus urgents.
 
                                 </p>
 

@@ -26,7 +26,7 @@ function MiniExamen() {
     return (
         <>
             <div className="service1 ">
-                <h5 className="service-title exat">"Ils nous font confiance"</h5>
+                <h5 className="service-title text-center exat">"Ils nous font confiance"</h5>
 
                 <div className="examen-content">
                     <div className="examen-track">
@@ -42,8 +42,8 @@ function MiniExamen() {
                         {examens.map((examen) => (
                             <div className="card cardexamen">
                                 <img src={examen.image} className="service-content-img" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title text-dark justify-self-center">{examen.title}</h5>
+                                <div className="card-body ">
+                                    <h5 className="card-title text-dark justify-self-center text-center">{examen.title}</h5>
                                 </div>
                             </div>
                         ))}

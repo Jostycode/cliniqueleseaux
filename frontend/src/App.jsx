@@ -8,6 +8,8 @@ import Page4 from './composants/accueil/page4';
 import Page5 from './composants/accueil/page5';
 import Page6 from './composants/accueil/page6';
 import MiniExamen from './composants/accueil/miniExamen';
+import Footer from './composants/accueil/footer';
+import Reservation from './composants/accueil/reservation';
 
 // import Carouselclinique from "./composants/accueil/carousel";
 // import Miniapropos from "./composants/accueil/miniApropos";
@@ -54,8 +56,9 @@ function App() {
       <Page3 />
       <Page4 >Clinique Médicale les "LES EAUX"</Page4 >
       <Page5 />
-      <Page6 lien2="">reserver un rendez-vous</Page6 >
+      <Reservation lien2="">reserver un rendez-vous</Reservation >
       <MiniExamen />
+      <Footer />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import Service from './composants/services/service.jsx'
 import Urgence from './composants/accueil/urgence.jsx'
 import Apropos from './composants/apropos/apropos.jsx'
 import Contact from './composants/contact/contact.jsx'
+import Hospitalisation from './composants/contact/hospitalisation.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -28,6 +29,10 @@ let router = createBrowserRouter([
   {
     path: "/apropos",
     element: <Apropos />,
+  },
+  {
+    path: "/hospitalisation",
+    element: <Hospitalisation />,
   },
   {
     path: "/contact",

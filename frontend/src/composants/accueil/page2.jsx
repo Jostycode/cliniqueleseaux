@@ -9,7 +9,7 @@ function Page2() {
 
     return (
         <>
-            <div className="page2">
+            <div className="page2 d-flex justify-content-center align-items-center flex-column text-center">
 
                 <h1>Clinique médicale <br /> <p className="leseaux">"LES EAUX"</p><span>ouverte 24/24; 7j/7</span></h1>
                 {/* <p>votre santé est notre priorité première</p> */}

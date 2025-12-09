@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Page4({ children }) {
     return (
 
-        <div className="page4 text-white d-flex justify-content-center">
+        <div className="page4 text-white d-flex justify-content-center text-center">
             {children}
         </div>
     )

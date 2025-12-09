@@ -1,7 +1,6 @@
-import Navbarclinique from "../accueil/menu";
-import Footer from "../accueil/footer";
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "../accueil/footer";
+import Navbarclinique from "../accueil/menu";
 
 function Contact() {
     const [name, setName] = useState("");
@@ -38,13 +37,13 @@ function Contact() {
 
     return (
         <>
-            <Navbarclinique color1="primary-subtle" />
-            <div className="row g-0 justify-content-center align-items-center contact pb-4 pt-3">
+            <Navbarclinique />
+            <div className="w-100 row align-items-center contact bgdc pb-4 pt-3 ">
                 {/* Formulaire de contact */}
                 <div className="col-lg-5 col-xl-5 contact-form wow fadeInLeft marge" data-wow-delay="0.1s">
                     <form onSubmit={handleSubmit}>
-                        <div className="row g-3">
-                            <div className="col-lg-12 col-xl-6 px-4">
+                        <div className="row g-3 ps-4">
+                            <div className="col-lg-12 col-xl-6">
                                 <div className="form-floating">
                                     <input
                                         type="text"
@@ -57,7 +56,7 @@ function Contact() {
                                     <label htmlFor="name">Nom</label>
                                 </div>
                             </div>
-                            <div className="col-lg-12 col-xl-6 px-4">
+                            <div className="col-lg-12 col-xl-6">
                                 <div className="form-floating">
                                     <input
                                         type="tel"
@@ -70,7 +69,7 @@ function Contact() {
                                     <label htmlFor="phone">Numéro</label>
                                 </div>
                             </div>
-                            <div className="col-12 px-4">
+                            <div className="col-12">
                                 <div className="form-floating">
                                     <textarea
                                         className="form-control bg-white border border-white"
@@ -83,7 +82,7 @@ function Contact() {
                                     <label htmlFor="message">Message</label>
                                 </div>
                             </div>
-                            <div className="col-12 d-flex gap-3 px-4">
+                            <div className="col-12 d-flex gap-3">
                                 <button type="submit" className="btn btn-success text-white w-50 py-3">
                                     Envoyer sur WhatsApp
                                 </button>
@@ -109,9 +108,11 @@ function Contact() {
                         ></iframe>
                     </div>
                 </div>
+
             </div>
             <Footer />
         </>
     );
 }
+
 export default Contact;

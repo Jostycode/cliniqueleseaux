@@ -16,7 +16,8 @@ const navigationItems = [
     { name: 'Accueil', href: '/', icon: home },
     { name: 'Services', href: '/service', icon: service },
     { name: 'Apropos', href: '/apropos', icon: about },
-    { name: 'Hospitalisation', href: '/contact', icon: contact },
+    { name: 'Hospitalisation', href: '/hospitalisation', icon: contact },
+    { name: 'Contact', href: '/contact', icon: contact },
 ]
 
 function classNames(...classes) {
@@ -24,6 +25,16 @@ function classNames(...classes) {
 }
 
 export default function Navbarclinique({ pos, color1 }) {
+
+
+    const handleSendEmail = () => {
+        const subject = "Demande de réservation";
+        const body = "Bonjour, je souhaite réserver un service.";
+        const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=cliniqueleseaux@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        window.open(gmailLink, "_blank");
+    };
+
     const location = useLocation();
     const bgcolor = color1 || "white"
     const color = `sticky top-0 z-50 relative bg-${bgcolor}`
@@ -41,17 +52,21 @@ export default function Navbarclinique({ pos, color1 }) {
                     </div>
 
                     {/* Logo et menu */}
-                    <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between ecart">
+                    <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between ecart ">
                         <Link className="flex shrink-0 items-center" to="/">
                             <img
                                 alt='Clinique medicale "LES EAUX"'
                                 src={logo}
-                                className="h-10 w-auto"
+                                className="h-15 w-auto"
                             />
+                            <div className='pt-3 text-decoration-none '>
+                                <h7 className=" text-sky-600">Clinique médicale </h7><br />
+                                <h7 className="ps-1 text-danger">"LES EAUX"</h7>
+                            </div>
                         </Link>
 
                         {/* Menu desktop */}
-                        <div className="hidden sm:ml-6 sm:block justify-end ecartleft">
+                        <div className="hidden sm:ml-6 sm:block justify-end ecartleft mt-3">
                             <div className="flex space-x-4">
                                 {navigationItems.map((item) => {
                                     const isActive = location.pathname === item.href;
@@ -81,7 +96,7 @@ export default function Navbarclinique({ pos, color1 }) {
                                 })}
                                 <div style={{ display: 'flex' }}>
                                     <a href=""><img src={facebook} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
-                                    <a href=""><img src={gmail} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
+                                    <a href="" onClick={handleSendEmail}><img src={gmail} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
                                     <a href=""><img src={whatsapp} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
                                     <a href=""><img src={tiktok} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
                                 </div>
@@ -114,7 +129,7 @@ export default function Navbarclinique({ pos, color1 }) {
                     })}
                     <div style={{ display: 'flex' }}>
                         <a href=""><img src={facebook} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
-                        <a href=""><img src={gmail} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
+                        <a href="" onClick={handleSendEmail}><img src={gmail} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
                         <a href=""><img src={whatsapp} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
                         <a href=""><img src={tiktok} style={{ height: "25px", paddingLeft: '4px' }} alt="" /></a>
                     </div>
