@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import img4 from "../../assets/img4.jpg"
-import ambulance from "../../assets/ambulance1.png";
+import img4 from "../../assets/img4.JPG"
+import ambulance from "../../assets/ambulance1.PNG";
 
 function miniapropos() {
     return (

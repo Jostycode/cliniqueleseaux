@@ -1,15 +1,15 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Link, useLocation } from 'react-router-dom'
-import logo from "../../assets/logo-transparent2.png";
-import facebook from "../../assets/facebook.png";
-import gmail from "../../assets/gmail.png";
-import tiktok from "../../assets/tiktok.png";
-import whatsapp from "../../assets/whatsapp.png";
-import menu from "../../assets/menu.png";
-import home from "../../assets/home-icon.png"
-import service from "../../assets/service-icon.png"
-import about from "../../assets/about-icon.png"
-import contact from "../../assets/contact-icon.png"
+import logo from "../../assets/logo-transparent2.PNG";
+import facebook from "../../assets/facebook.PNG";
+import gmail from "../../assets/gmail.PNG";
+import tiktok from "../../assets/tiktok.PNG";
+import whatsapp from "../../assets/whatsapp.PNG";
+import menu from "../../assets/menu.PNG";
+import home from "../../assets/home-icon.PNG"
+import service from "../../assets/service-icon.PNG"
+import about from "../../assets/about-icon.PNG"
+import contact from "../../assets/contact-icon.PNG"
 
 
 const navigationItems = [

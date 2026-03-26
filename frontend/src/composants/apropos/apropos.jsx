@@ -1,6 +1,4 @@
-import img11 from "../../assets/img1.jpg";
-import img22 from "../../assets/img2.jpg";
-import img33 from "../../assets/img2.jpg";
+
 import Navbarclinique from "../accueil/menu";
 import Footer from "../accueil/footer";
 import "bootstrap/dist/css/bootstrap.min.css";

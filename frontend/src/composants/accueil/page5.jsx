@@ -1,8 +1,4 @@
-import img11 from "../../assets/img1.jpg";
-import img22 from "../../assets/couloir.jpeg";
-import img33 from "../../assets/img2.jpg";
-import Navbarclinique from "../accueil/menu";
-import Footer from "../accueil/footer";
+import img22 from "../../assets/couloir.JPEG";
 import { Link } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 
