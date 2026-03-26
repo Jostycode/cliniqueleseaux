@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import ouverture from "../../assets/ouverture.PNG";
-import horaire from "../../assets/horaire.PNG";
-import facebook from "../../assets/facebook.PNG";
-import gmail from "../../assets/gmail.PNG";
+import ouverture from "../../assets/ouverture.png";
+import horaire from "../../assets/horaire.png";
+import facebook from "../../assets/facebook.png";
+import gmail from "../../assets/gmail.png";
 
 function Footer(params) {
     const par = ">"
