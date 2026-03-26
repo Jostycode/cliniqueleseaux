@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
-import image1 from "../../assets/Land_cruiser_ambulance_2.PNG";
+import image1 from "../../assets/ambulance2.PNG";
 
 function Page4({ lien, lien2, children, surgence }) {
     const classn = `text-decoration-none justify-content-center d-flex bg-danger p-2 rounded-3 ${surgence ? 'surgence' : 'text-white'}`
