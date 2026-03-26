@@ -22,7 +22,7 @@ import chirurgie from "../../assets/chirurgie.JPG";
 import orl from "../../assets/orl.jpg";
 import dermo from "../../assets/dermo.jpeg";
 import kine from "../../assets/KINE.jpeg";
-import ambulance2 from "../../assets/ambulance2.PNG";
+import ambulance2 from "../../assets/ambulance2.png";
 import Navbarclinique from "../accueil/menu";
 import Footer from "../accueil/footer";
 import Page6 from "../accueil/page6";
