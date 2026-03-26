@@ -1,4 +1,4 @@
-import image1 from "../../assets/Land_cruiser_ambulance_2.PNG";
+import image1 from "../../assets/ambulance2.PNG";
 
 
 import Navbarclinique from "../accueil/menu";
