@@ -1,5 +1,5 @@
 import image1 from "../../assets/Land_cruiser_ambulance_2.png";
-import image2 from "../../assets/ambulance3.png";
+
 
 import Navbarclinique from "../accueil/menu";
 import Footer from "../accueil/footer";
