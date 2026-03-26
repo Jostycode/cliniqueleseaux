@@ -1,4 +1,4 @@
-import radio from "../../assets/radio.JPEG";
+import radio from "../../assets/radio.jpeg";
 import scanner from "../../assets/scanner.JPEG";
 import irm from "../../assets/irm.JPEG";
 import salle1 from "../../assets/salle1.JPG";
