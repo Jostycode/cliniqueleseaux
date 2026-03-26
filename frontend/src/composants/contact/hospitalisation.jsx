@@ -2,7 +2,7 @@ import Navbarclinique from "../accueil/menu";
 import Footer from "../accueil/footer";
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import salle1 from "../../assets/salle1.jpg";
+import salle1 from "../../assets/salle1.JPG";
 import horaire from "../../assets/horaire.png";
 
 function Hospitalisation() {
