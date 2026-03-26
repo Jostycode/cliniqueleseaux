@@ -1,4 +1,4 @@
-import img22 from "../../assets/couloir.JPEG";
+import img22 from "../../assets/couloir.jpeg";
 import { Link } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 
