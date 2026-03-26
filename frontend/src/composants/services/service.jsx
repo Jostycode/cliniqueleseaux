@@ -11,7 +11,7 @@ import ecg from "../../assets/ecg.jpg";
 import labo1 from "../../assets/labo1.jpeg";
 import labo2 from "../../assets/labo2.jpeg";
 import hemato from "../../assets/hemato.jpg";
-import dermatologie from "../../assets/dermatologie.JPG";
+import dermatologie from "../../assets/Dermatologie.jpg";
 import rhuma from "../../assets/rhuma.jpeg";
 import trauma from "../../assets/trauma.jpg"
 import pharma from "../../assets/pharma.jpeg";
