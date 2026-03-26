@@ -5,8 +5,8 @@ import willis from "../../assets/willis.png";
 import sunu from "../../assets/sunu.png";
 import olea from "../../assets/olea.png";
 import nsia from "../../assets/nsia.jpg";
-import ofis from "../../assets/ofis.png";
-import mercure from "../../assets/mercure.jpEg";
+// import ofis from "../../assets/ofis.png";
+// import mercure from "../../assets/mercure.jpEg";
 
 import "bootstrap/dist/css/bootstrap.min.css"; // très important
 

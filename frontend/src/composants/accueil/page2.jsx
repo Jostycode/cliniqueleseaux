@@ -1,8 +1,4 @@
-import Carousel from "react-bootstrap/Carousel";
-import ac from "../../assets/ac.jpg";
-import img2 from "../../assets/img2.jpg";
-import img3 from "../../assets/img2.jpg";
-import ambulance from "../../assets/ambulance1.png";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Page2() {
