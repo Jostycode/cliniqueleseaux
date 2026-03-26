@@ -17,7 +17,7 @@ import trauma from "../../assets/trauma.jpg"
 import pharma from "../../assets/pharma.jpeg";
 import staumato from "../../assets/staumato.jpeg";
 import emg from "../../assets/neurologie.jpeg";
-import pediatrie from "../../assets/pediatrie.jpg";
+import pediatrie from "../../assets/pediatrie.JPG";
 import chirurgie from "../../assets/chirurgie.jpg";
 import orl from "../../assets/orl.jpg";
 import dermo from "../../assets/dermo.jpeg";
