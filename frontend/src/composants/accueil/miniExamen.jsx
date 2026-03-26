@@ -1,6 +1,6 @@
 import ascoma from "../../assets/ascoma.jpeg";
 import agc from "../../assets/agcvie.png";
-import arc from "../../assets/arc.JPG";
+import arc from "../../assets/arc.jpg";
 import willis from "../../assets/willis.png";
 import sunu from "../../assets/sunu.png";
 import olea from "../../assets/olea.png";
