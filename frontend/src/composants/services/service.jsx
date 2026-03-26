@@ -21,7 +21,7 @@ import pediatrie from "../../assets/pediatrie.JPG";
 import chirurgie from "../../assets/chirurgie.JPG";
 import orl from "../../assets/orl.jpg";
 import dermo from "../../assets/dermo.jpeg";
-import kine from "../../assets/kine.jpeg";
+import kine from "../../assets/KINE.jpeg";
 import ambulance2 from "../../assets/ambulance2.PNG";
 import Navbarclinique from "../accueil/menu";
 import Footer from "../accueil/footer";
