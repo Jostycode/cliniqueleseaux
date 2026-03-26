@@ -1,11 +1,11 @@
-import ascoma from "../../assets/ascoma.JPEG";
-import agc from "../../assets/agcvie.PNG";
+import ascoma from "../../assets/ascoma.jpeg";
+import agc from "../../assets/agcvie.png";
 import arc from "../../assets/arc.JPG";
-import willis from "../../assets/willis.PNG";
-import sunu from "../../assets/sunu.PNG";
-import olea from "../../assets/olea.PNG";
-import nsia from "../../assets/nsia.JPG";
-// import ofis from "../../assets/ofis.PNG";
+import willis from "../../assets/willis.png";
+import sunu from "../../assets/sunu.png";
+import olea from "../../assets/olea.png";
+import nsia from "../../assets/nsia.jpg";
+// import ofis from "../../assets/ofis.png";
 // import mercure from "../../assets/mercure.JPEG";
 
 import "bootstrap/dist/css/bootstrap.min.css"; // très important
