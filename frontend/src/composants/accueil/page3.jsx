@@ -1,6 +1,6 @@
-import radio from "../../assets/radio.JPEG";
-import scanner from "../../assets/scanner.JPEG";
-import irm from "../../assets/irm.JPEG";
+import radio from "../../assets/radio.jpeg";
+import scanner from "../../assets/scanner.jpeg";
+import irm from "../../assets/irm.jpeg";
 import { Link } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
