@@ -16,9 +16,8 @@ function Urgence() {
                     {/* <img src={image2} className="imgurgence" alt="" /> */}
                 </div>
                 <p className="p-5 d-flex justify-content-center align-items-center flex-wrap bg-danger text-white">
-                    Intervention en cas d'urgence, nous disposons de deux ambulances médicalisées et couplées d'un aéronef d'urgence, d'une infirmier et médécin pour des soins médicalisés. <br />
-                    nous somme disponible 24/24h et 7j/7 quelque soit le lieu de l'intervention (maison,travail,...). <br />
-                    Nous prennons en charge dans l'ambulance jusqu'a la clinique de tout les cas exemple: les victime d'accidents, en etat de malaise, femme enceinte, etc...
+                    Dans les situations d'urgence, nous disposons des ambulances médicalisées, accompagné d'une equipe qualifiée, <br />
+                    nous somme disponible 24/24h et 7j/7.
                 </p>
             </div>
         </>

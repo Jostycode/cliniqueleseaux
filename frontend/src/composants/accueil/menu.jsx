@@ -53,15 +53,15 @@ export default function Navbarclinique({ pos, color1 }) {
 
                     {/* Logo et menu */}
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between ecart ">
-                        <Link className="flex shrink-0 items-center" to="/">
+                        <Link className="flex shrink-0 items-center text-decoration-none" to="/">
                             <img
                                 alt='Clinique medicale "LES EAUX"'
                                 src={logo}
                                 className="h-15 w-auto"
                             />
-                            <div className='pt-3 text-decoration-none '>
-                                <h7 className=" text-sky-600">Clinique médicale </h7><br />
-                                <h7 className="ps-1 text-danger">"LES EAUX"</h7>
+                            <div className='pt-3'>
+                                <h7 className=" text-sky-600 logo">Clinique médicale </h7><br />
+                                <h7 className="ps-1 text-danger logo">"LES EAUX"</h7>
                             </div>
                         </Link>
 

@@ -11,7 +11,7 @@ function Page2() {
         <>
             <div className="page2 d-flex justify-content-center align-items-center flex-column text-center">
 
-                <h1>Clinique médicale <br /> <p className="leseaux">"LES EAUX"</p><span>ouverte 24/24; 7j/7</span></h1>
+                <h1 className="bg-white">Clinique médicale <br /> <p className="leseaux">"LES EAUX"</p><h5>ouverte 24/24; 7j/7</h5></h1>
                 {/* <p>votre santé est notre priorité première</p> */}
             </div>
         </>

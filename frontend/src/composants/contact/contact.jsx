@@ -38,7 +38,7 @@ function Contact() {
     return (
         <>
             <Navbarclinique />
-            <div className="w-100 row align-items-center contact bgdc pb-4 pt-3 ">
+            <div className=" row align-items-center contact bgdc pb-4 pt-3 ">
                 {/* Formulaire de contact */}
                 <div className="col-lg-5 col-xl-5 contact-form wow fadeInLeft marge" data-wow-delay="0.1s">
                     <form onSubmit={handleSubmit}>

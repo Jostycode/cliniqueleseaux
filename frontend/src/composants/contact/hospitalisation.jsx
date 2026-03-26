@@ -2,7 +2,7 @@ import Navbarclinique from "../accueil/menu";
 import Footer from "../accueil/footer";
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img22 from "../../assets/img2.jpg";
+import salle1 from "../../assets/salle1.jpg";
 import horaire from "../../assets/horaire.png";
 
 function Hospitalisation() {
@@ -47,7 +47,7 @@ function Hospitalisation() {
                     <h2 className="service-title stext pb-5 d-flex justify-content-center">Hospitalisation</h2>
                     <div className="row g-0">
 
-                        <img src={img22} className="col-md-6 side-a py-5" alt="..." />
+                        <img src={salle1} className="col-md-6 side-a py-5" alt="..." />
 
                         <div className="col-md-6">
                             <div className="side-bb py-5 px-3">

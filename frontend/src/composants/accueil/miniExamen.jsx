@@ -19,8 +19,8 @@ function MiniExamen() {
         { title: "SUNU", image: sunu },
         { title: "OLEA", image: olea },
         { title: "NSIA", image: nsia },
-        { title: "OFIS", image: ofis },
-        { title: "MERCURE", image: mercure },
+        // { title: "OFIS", image: ofis },
+        // { title: "MERCURE", image: mercure },
 
     ]
     return (

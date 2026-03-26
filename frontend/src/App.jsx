@@ -56,7 +56,7 @@ function App() {
       <Page3 />
       <Page4 >Clinique Médicale les "LES EAUX"</Page4 >
       <Page5 />
-      <Reservation lien2="">reserver un rendez-vous</Reservation >
+      <Reservation lien2="/contact">reserver un rendez-vous</Reservation >
       <MiniExamen />
       <Footer />
     </div>

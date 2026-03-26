@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import image1 from "../../assets/Land_cruiser_ambulance_2.png";
 
-function Reservation({ children, surgence }) {
+function Reservation({ children, surgence, lien2 }) {
     const classn = `text-decoration-none justify-content-center d-flex bg-danger p-2 rounded-3 text-white ${surgence ? 'surgence' : ''}`;
 
     const handleSendEmail = () => {
@@ -18,9 +18,12 @@ function Reservation({ children, surgence }) {
 
     return (
         <div className="page4 text-white d-flex justify-content-center">
-            <button onClick={handleSendEmail} className={classn}>
+            {/* <button onClick={handleSendEmail} className={classn}>
                 {children}
-            </button>
+            </button> */}
+            <Link to={lien2} className={classn}>
+                {children}
+            </Link>
         </div>
     );
 }
