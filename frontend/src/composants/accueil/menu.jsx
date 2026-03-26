@@ -30,7 +30,7 @@ export default function Navbarclinique({ pos, color1 }) {
     const handleSendEmail = () => {
         const subject = "Demande de réservation";
         const body = "Bonjour, je souhaite réserver un service.";
-        const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=cliniqueleseaux@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=clinique.leseaux@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         window.open(gmailLink, "_blank");
     };

@@ -30,7 +30,7 @@ function Contact() {
 
         const subject = `Message de ${name}`;
         const body = `Nom : ${name}\nNuméro : ${phone}\n\n${message}`;
-        const mailtoLink = `mailto:cliniqueleseaux@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const mailtoLink = `mailto:clinique.leseaux@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         window.location.href = mailtoLink;
     };
@@ -83,9 +83,9 @@ function Contact() {
                                 </div>
                             </div>
                             <div className="col-12 d-flex gap-3">
-                                <button type="submit" className="btn btn-success text-white w-50 py-3">
+                                {/* <button type="submit" className="btn btn-success text-white w-50 py-3">
                                     Envoyer sur WhatsApp
-                                </button>
+                                </button> */}
                                 <button type="button" className="btn btn-primary text-white w-50 py-3" onClick={handleSendEmail}>
                                     Envoyer par mail
                                 </button>
