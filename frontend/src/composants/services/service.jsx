@@ -31,11 +31,11 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function Service() {
     const services = [
-        { id: 1, title: "SERVICE IMAGERIE: RADIOLOGIE", image: radio, examen: [{ id: 1, name: "Bassin [hanche] ¾ obturateur (face + profil)" }, { id: 2, name: "A.S.P" }, { id: 3, name: "Thorax osseux" }, { id: 4, name: "Crane (face + profil)" }, { id: 5, name: "Face haute" }, { id: 6, name: "Face basse" }, { id: 7, name: "Bassin [hanche] ¾ obturateur (face + profil)" }, { id: 8, name: "A.S.P" }, { id: 9, name: "Thorax osseux " }, { id: 10, name: "Crane (face + profil)" }, { id: 11, name: "Face haute " }, { id: 12, name: "Face basse " }, { id: 13, name: "Blondeau " }, { id: 14, name: "Schuller " }, { id: 15, name: "Trou optique " }, { id: 16, name: "Os propre du nez " }, { id: 17, name: "Rachis cervical (face + profil)" }, { id: 18, name: "Rachis ¾ droit (face + profil)" }, { id: 19, name: "Rachis ¾ gauche (face + profil)" }, { id: 20, name: "Rachis lombaire (face + profil)" }, { id: 21, name: "Rachis lombaire-sacré  (face + profil)" }, { id: 22, name: "Rachis dorsal (face + profil)" }, { id: 23, name: "Cavum " }, { id: 24, name: "HIRZ" }, { id: 25, name: "H.S.G" }, { id: 26, name: "U.I.V" }, { id: 27, name: "Uretro cystographie rétrograde " }, { id: 28, name: "Lavement baryté " }, { id: 28, name: "Contenu utérin" }, { id: 30, name: "TOGD" }, { id: 1, name: "Mammographie " }, { id: 31, name: "pulmonaire" }, { id: 32, name: "Main (face + profil)" }, { id: 33, name: "Poignet (face + profil)" }, { id: 34, name: "Avant-bras (face + profil)" }, { id: 35, name: "Radio UIV" }, { id: 36, name: "Coude (face + profil)" }, { id: 37, name: "Humérus (face + profil)" }, { id: 38, name: "Pied (face + profil)" }, { id: 39, name: "Cheville (face + profil)" }, { id: 40, name: "" }, { id: 41, name: "Jambe (face + profil)" }, { id: 42, name: "Genou (face + profil)" }, { id: 43, name: "Fémur (face + profil)" }, { id: 44, name: "Epaule (face + profil)" }, { id: 45, name: "Clavicule (face + profil)" }, { id: 46, name: "Maxillaire défilé (face + profil)" }, { id: 47, name: "Bassin [hanche] (face + profil)" },] },
+        { id: 1, title: "RADIOLOGIE", image: radio, examen: [{ id: 1, name: "Bassin [hanche] ¾ obturateur (face + profil)" }, { id: 2, name: "A.S.P" }, { id: 3, name: "Thorax osseux" }, { id: 4, name: "Crane (face + profil)" }, { id: 5, name: "Face haute" }, { id: 6, name: "Face basse" }, { id: 7, name: "Bassin [hanche] ¾ obturateur (face + profil)" }, { id: 8, name: "A.S.P" }, { id: 9, name: "Thorax osseux " }, { id: 10, name: "Crane (face + profil)" }, { id: 11, name: "Face haute " }, { id: 12, name: "Face basse " }, { id: 13, name: "Blondeau " }, { id: 14, name: "Schuller " }, { id: 15, name: "Trou optique " }, { id: 16, name: "Os propre du nez " }, { id: 17, name: "Rachis cervical (face + profil)" }, { id: 18, name: "Rachis ¾ droit (face + profil)" }, { id: 19, name: "Rachis ¾ gauche (face + profil)" }, { id: 20, name: "Rachis lombaire (face + profil)" }, { id: 21, name: "Rachis lombaire-sacré  (face + profil)" }, { id: 22, name: "Rachis dorsal (face + profil)" }, { id: 23, name: "Cavum " }, { id: 24, name: "HIRZ" }, { id: 25, name: "H.S.G" }, { id: 26, name: "U.I.V" }, { id: 27, name: "Uretro cystographie rétrograde " }, { id: 28, name: "Lavement baryté " }, { id: 28, name: "Contenu utérin" }, { id: 30, name: "TOGD" }, { id: 1, name: "Mammographie " }, { id: 31, name: "pulmonaire" }, { id: 32, name: "Main (face + profil)" }, { id: 33, name: "Poignet (face + profil)" }, { id: 34, name: "Avant-bras (face + profil)" }, { id: 35, name: "Radio UIV" }, { id: 36, name: "Coude (face + profil)" }, { id: 37, name: "Humérus (face + profil)" }, { id: 38, name: "Pied (face + profil)" }, { id: 39, name: "Cheville (face + profil)" }, { id: 40, name: "" }, { id: 41, name: "Jambe (face + profil)" }, { id: 42, name: "Genou (face + profil)" }, { id: 43, name: "Fémur (face + profil)" }, { id: 44, name: "Epaule (face + profil)" }, { id: 45, name: "Clavicule (face + profil)" }, { id: 46, name: "Maxillaire défilé (face + profil)" }, { id: 47, name: "Bassin [hanche] (face + profil)" },] },
 
-        { id: 2, title: "SERVICE IMAGERIE: SCANNER", image: scanner, examen: [{ id: 1, name: "Scanner sans injection" }, { id: 2, name: "Scanner avec injection" }] },
+        { id: 2, title: "SCANNER", image: scanner, examen: [{ id: 1, name: "Scanner sans injection" }, { id: 2, name: "Scanner avec injection" }] },
 
-        { id: 3, title: "SERVICE IMAGERIE: IRM", image: irm, examen: [{ id: 1, name: "Scanner sans injection" }, { id: 2, name: "Scanner avec injection" }] },
+        { id: 3, title: "IRM", image: irm, examen: [{ id: 1, name: "Scanner sans injection" }, { id: 2, name: "Scanner avec injection" }] },
 
         { id: 4, title: "SALLES D’HOSPITALISATION", image: salle1, examen: [{ id: 1, name: "1er catégorie ", image: salle1}, { id: 2, name: "2e catégorie", image: salle2 }] },
 
@@ -45,38 +45,38 @@ function Service() {
 
         { id: 7, title: "SALLE DE SOINS ", image: acte1, examen: [{ id: 1, name: "consultation" }, { id: 2, name: "Actes de kinésithérapie" }, { id: 3, name: "Kinési-respiratoire" }, { id: 4, name: "Pansement avec produit" }, { id: 5, name: "Injection" }, { id: 6, name: "Prise de tension artérielle" }, { id: 7, name: "Lavement d’oreille" }, { id: 8, name: "Infiltration" }, { id: 9, name: "Ponction du genou" }, { id: 10, name: "Pesée de bébé" }, { id: 11, name: "Pesée avec visite de routine" }, { id: 12, name: "Suture sous anesthésie " }, { id: 13, name: "Circoncision " }, { id: 14, name: "Ablation des fils" }, { id: 15, name: "Pose de plâtre" }, { id: 16, name: "Ablation de plâtre" }, { id: 17, name: "Pose sonde (prostate)" }, { id: 18, name: "Ablation sonde" }, {image: acte2}] },
 
-        // { id: 8, title: "SERVICE ORL", image: spirometrie, examen: [{ id: 1, name: "Consultation" }, { id: 2, name: "Lavage d’oreill" }, { id: 3, name: "Corps étranger" }, { id: 4, name: "Audiométrie" },] },
+        // { id: 8, title: "  ORL", image: spirometrie, examen: [{ id: 1, name: "Consultation" }, { id: 2, name: "Lavage d’oreill" }, { id: 3, name: "Corps étranger" }, { id: 4, name: "Audiométrie" },] },
 
-        { id: 9, title: "SERVICE PEDIATRIE", image: pediatrie, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 9, title: "  PEDIATRIE", image: pediatrie, examen: [{ id: 1, name: "Consultation " }] },
 
-        { id: 10, title: "SERVICE NEUROLOGIE", image: emg, examen: [{ id: 1, name: "1	Consultation" }, { id: 2, name: "2	ENMG" }, { id: 3, name: "3	EEG" }] },
+        { id: 10, title: "  NEUROLOGIE", image: emg, examen: [{ id: 1, name: "1	Consultation" }, { id: 2, name: "2	ENMG" }, { id: 3, name: "3	EEG" }] },
 
-        // { id: 11, title: "SERVICE NEURO-PEDIATRIE", image: eeg, examen: [{ id: 1, name: "Consultation " }] },
+        // { id: 11, title: "  NEURO-PEDIATRIE", image: eeg, examen: [{ id: 1, name: "Consultation " }] },
 
-        { id: 12, title: "SERVICE GYNECOLOGIE", image: dermo, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 12, title: "  GYNECOLOGIE", image: dermo, examen: [{ id: 1, name: "Consultation " }] },
 
-        { id: 13, title: "SERVICE CANCEROLOGIE", image: cance, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 13, title: "  CANCEROLOGIE", image: cance, examen: [{ id: 1, name: "Consultation " }] },
 
-        { id: 14, title: "SERVICE URO-CHIRURGIE", image: chirurgie, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 14, title: "  URO-CHIRURGIE", image: chirurgie, examen: [{ id: 1, name: "Consultation " }] },
 
-        { id: 15, title: "SERVICE NEURO-CHIRURGIE", image: chirurgie, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 15, title: "  NEURO-CHIRURGIE", image: chirurgie, examen: [{ id: 1, name: "Consultation " }] },
 
         { id: 16, title: "CHIRURGIE GENERALE", image: chirurgie, examen: [{ id: 1, name: "Consultation " }] },
 
-        { id: 17, title: "SERVICE CARDIOLOGIE", image: ecg, examen: [{ id: 1, name: "Consultation " }, { id: 2, name: "ECG" }, { id: 3, name: "Echo-cardiaque" }, { id: 4, name: "Holter ECG" }, { id: 5, name: "Echographie" }, { id: 6, name: "MAPA" },] },
+        { id: 17, title: "  CARDIOLOGIE", image: ecg, examen: [{ id: 1, name: "Consultation " }, { id: 2, name: "ECG" }, { id: 3, name: "Echo-cardiaque" }, { id: 4, name: "Holter ECG" }, { id: 5, name: "Echographie" }, { id: 6, name: "MAPA" },] },
 
         { id: 18, title: "SALLE DE PARAMETRE", image: rhuma, examen: [{ id: 1, name: "Consultation " }] },
 
-        { id: 19, title: "SERVICE PNEUMOLOGIE ", image: orl, examen: [{ id: 1, name: "Consultation " }, { id: 2, name: "Spirométrie " }] },
+        { id: 19, title: "  PNEUMOLOGIE ", image: orl, examen: [{ id: 1, name: "Consultation " }, { id: 2, name: "Spirométrie " }] },
 
-        { id: 20, title: "SERVICE DERMATOLOGIE", image: dermatologie, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 20, title: "  DERMATOLOGIE", image: dermatologie, examen: [{ id: 1, name: "Consultation " }] },
 
-        { id: 21, title: "SERVICE HEMATOLOGIE", image: hemato, examen: [{ id: 1, name: "Consultation " }] },
-        { id: 22, title: "SERVICE STOMATOLOGIE", image: staumato, examen: [{ id: 1, name: "Consultation " }] },
-        { id: 23, title: "SERVICE TRAUMATOLOGIE", image: trauma, examen: [{ id: 1, name: "Consultation " }] },
-        { id: 24, title: "SERVICE KINESITHERAPIE", image: kine, examen: [{ id: 1, name: "Consultation " }] },
-        { id: 25, title: "SERVICE LABORATOIRE ", image: labo2, examen: [ {image: labo1}] },
-        { id: 26, title: "SERVICE PHARMACIE ", image: pharma, examen: [ ] },
+        { id: 21, title: "  HEMATOLOGIE", image: hemato, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 22, title: "  STOMATOLOGIE", image: staumato, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 23, title: "  TRAUMATOLOGIE", image: trauma, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 24, title: "  KINESITHERAPIE", image: kine, examen: [{ id: 1, name: "Consultation " }] },
+        { id: 25, title: "  LABORATOIRE ", image: labo2, examen: [ {image: labo1}] },
+        { id: 26, title: "  PHARMACIE ", image: pharma, examen: [ ] },
     ];
 
     return (
